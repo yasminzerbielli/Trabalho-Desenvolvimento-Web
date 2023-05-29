@@ -1,3 +1,4 @@
+//agora vai essa porcaria
 function verificarHorario() {
     var splInicial = document.getElementById("splInicial").value.split(":");
     var splFinal = document.getElementById("splFinal").value.split(":");
