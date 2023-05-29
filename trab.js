@@ -6,6 +6,15 @@ function armazenar(){
     var carga = document.getElementById("carga").value;
     console.log(nome)
 }
+const armazenamento = {
+    "nome": nome,
+    "siape": siape
+}
+
+for (a in armazenamento){
+    
+
+}
 
 //! localStorage.setItem("nome", nome)
 
