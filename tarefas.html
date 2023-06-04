@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tarefas.css">
     <title>Cadastro de Tarefas</title>
 </head>
 <body>
-    <h1 id="cadastro">Cadastro de Tarefas</h1>
+    <div class="container">
+        <div class="form-image">
+            <div id="tarefas"></div>
+        </div>
+   
+    <div>
+    <form id="formulario">
+        <h1 id="cadastro">Cadastro de Tarefas</h1>
     <div>
         <label for="nome">Nome do Servidor:</label><br>
         <input type="text" id="nome" name="nome"><br>
-    </div>
+    </div id="formulario">
     <div>
         <label for="siape">Siape:</label><br>
         <input type="text" id="siape" name="siape"><br>
@@ -19,8 +27,8 @@
     <div>
     <div>
         <label for="carga">Carga Horária</label><br>
-        <input type="radio" name="carga" value="vinte"> 20h
-        <input type="radio" name="carga" value="quarenta"> 40h
+        <input type="radio" name="carga" value="20"> 20h
+        <input type="radio" name="carga" value="40"> 40h
     </div>
     <div>
         <label for="tarefa">Tarefa</label><br>
@@ -36,8 +44,9 @@
             <input type="radio" name="opcao" value="quarta"> Quarta
             <input type="radio" name="opcao" value="quinta"> Quinta
             <input type="radio" name="opcao" value="sexta"> Sexta 
-            <button onclick="verificarHorario()">Armazenar</button>     
-    
+            <button onclick="verificarHorario()" id="botao">Armazenar</button>   
+        </div>
+    </form>
 
 <script src="tarefas.js"></script>
 </body>

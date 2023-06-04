@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Sarala:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 10;
+    box-sizing: border-box;
+    font-family: 'Inter' ;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#0c0ce94d;
+}
+.container{
+    width: 100;
+    height: 100;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0,0,0, .212);
+}
+.form-image{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3a7d7;
+    padding:1rem ;
+}
+
+#formulario{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 3rem;
+}
+#cadastro{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+/* #cadastro ::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px ;
+} */
+
+#botao{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+}
+#botao:hover{
+    background-color: #6b63fff1;
+}
+input{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 1.1rem;
+    margin: 0.6rem 0;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
